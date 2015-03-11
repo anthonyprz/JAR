@@ -1,3 +1,6 @@
+Un archivo JAR (por sus siglas en inglés, Java ARchive) es un tipo de archivo que permite ejecutar aplicaciones
+escritas en el lenguaje Java.
+Los archivos JAR están comprimidos con el formato ZIP y cambiada su extensión a .jar.
 
 La particularidad de los ficheros .jar es que no necesitan ser descomprimidos para ser usados,
  es decir que el intérprete de Java es capaz de ejecutar los archivos comprimidos en un archivo jar directamente. 
