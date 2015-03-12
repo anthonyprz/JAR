@@ -42,6 +42,7 @@ de las librerías del sistema.
     
 Esto puede resultar particularmente útil si queremos echar un vistazo a algunos paquetes del sistema que vienen de esta forma. 
 
+
 ventajas 
 
 	 Los JARs son ejecutables
@@ -55,3 +56,24 @@ ventajas
 	Portabilidad: los ficheros JAR son un estándar del API
 	Los ficheros JAR se empaquetan con el formato ZIP y Se utiliza el comando jar
 	Empaquetado para extensiones, sellado y versionado
+	
+	
+	un archivo jar creado por mi
+
+.......
+
+-----entras en donde estas los archivos .class
+
+-----creas un fichero .txt el cual diga cual es el Main de la siguiente forma:  nombre del fichero por ejemplo  manifiesto.txt
+
+Main-Class: Main         
+
+
+-----el cual Main es el nombre del fichero que se ejecuta primero
+-----en el terminal escribre 
+
+jar cmf manifiesto.txt prueba.jar *.class
+
+-----esto es para que la consola sepa donde esta el Main y poder ejecutar de la siguiente manera nuestro codigo 
+
+java -jar prueba.jar
